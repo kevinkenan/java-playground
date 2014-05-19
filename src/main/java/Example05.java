@@ -1,39 +1,31 @@
 package kenan.java.playground.example05;
 
 public class Example05 {
-    public static void main(String[] args) {
-        A a = new A();
-        B b = new B();
-        A x = b;
+  public static void main(String[] args) {
+    A a = new A();
+    B b = new B();
+    A x = b;
 
-        System.out.println("Example 3");
-
-        System.out.print(" 1: " );
-        a.go3(a);
-
-        System.out.print(" 2: " );
-        x.go3(b);
-
-        System.out.print(" 3: " );
-        x.go3(x);
-    }
+    System.out.println("Example 5");
+    System.out.println(" 1: " + a.go(a));
+    System.out.println(" 2: " + x.go(b));
+    System.out.println(" 3: " + x.go(x));
+  }
 }
 
 class A {
-    public void go3(A a) {
-        System.out.println("A3a");
-    }
-    public void go3(B b) {
-        System.out.println("A3b");
-    }
-
+  public String go(A a) {
+    return "A1";
+  }
+  public String go(B b) {
+    return "A2";
+  }
 }
-
 class B extends A {
-    public void go3(A a) {
-        System.out.println("B3a");
-    }
-    public void go3(B b) {
-        System.out.println("B3b");
-    }
+  public String go(A a) {
+    return "B1";
+  }
+  public String go(B b) {
+    return "B2";
+  }
 }
