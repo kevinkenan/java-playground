@@ -2,4 +2,4 @@
 
 class=$1
 dir=$(echo $class | tr '[:upper:]' '[:lower:]')
-java -cp build/libs/java-playground.jar kenan.java.playground.$dir.$1
+java -cp build/libs/java-playground.jar kenan.java.playground.$dir.$class
