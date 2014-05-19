@@ -78,7 +78,8 @@ such as we saw with Item 1. But the output is B1. This is because Java determine
 the actual type of the object dynamically, during runtime, and selects the
 method with the appropriate signature defined in that class. If that class
 does not define an appropriate method, Java climbs up the class hierarchy 
-looking for the right method (see the *invokevirtual* instruction in the 
+looking for the right method (see [JLS8 15.12.4.4](http://docs.oracle.com/javase/specs/jls/se8/jls8.pdf) 
+and the *invokevirtual* instruction in the 
 [*Java Virtual Machine Specification*](http://docs.oracle.com/javase/specs/jvms/se8/jvms8.pdf)).
 
 This is an example of polymorphism. Instance methods are invoked dynamically. 
