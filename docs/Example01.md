@@ -72,18 +72,13 @@ object. The complier allows this because B is a subclass of A. These sorts of
 discrepancies between declared and actual types often produce interesting or
 unexpected behavior in Java. 
 
-Logically, `x.go()` could execute the implementation defined in A or B.
+Logically, `x.go()` could execute the implementation defined in A or B. Since 
+`x` is of type A, then it is easy to imagine that A1 would be the output, 
+such as we saw with Item 1. But the output is B1. This is because overriding 
+instance methods in Java is done dynamically at runtime. The JVM decides 
+during execution what the actual type of the object is and selects the
+shallowest method with the appropriate signature. This is an example of 
+polymorphism. 
 
-At first you might expect this call to execute the implementation in A.
 
-In this case, the method invocation executes the implementation in B not the
-implementation in A which you might expect since . This is
-an example of polymorphic overriding in Java. The JVM decides at runtime which 
-
-: polymorphism. The variable x is
-declared as an A but references a B, which is a subclass of A. As we saw in
-Item 1 above, invoking `go()` on an A should output A1. But the output we see
-here is B1. This is because Java invokes methods on objects based on their
-actual type, not their declared type. There's plenty of info on the web on
-polymorphism and why it is useful.
 
