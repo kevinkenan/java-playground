@@ -4,5 +4,5 @@ Code inspired by *Effective Java* by Joshua Bloch and *Java Puzzlers: Traps, Pit
 
 ## List of Examples
 
-  * (Example 1: Overriding Instance Methods in Java)[http://www.0xc0deshop.com/2014/05/overriding-instance-methods-in-java.html]
-  * (Example 2: Hiding Static Methods in Java)[]
+  * [Example 1: Overriding Instance Methods in Java](http://www.0xc0deshop.com/2014/05/overriding-instance-methods-in-java.html)
+  * [Example 2: Hiding Static Methods in Java]()
