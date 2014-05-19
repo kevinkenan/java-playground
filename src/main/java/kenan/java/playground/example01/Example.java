@@ -24,10 +24,6 @@ public class Example {
         System.out.print(" 1: " );
         a.go2();
 
-        //System.out.print(" 2: " );
-        //b.go(3);
-        //B.go2(3);
-
         System.out.print(" 2: " );
         b.go2();
 
