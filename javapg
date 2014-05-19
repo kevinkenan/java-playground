@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -cp build/libs/java-playground.jar kenan.java.playground.$1.Example
