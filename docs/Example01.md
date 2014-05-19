@@ -1,4 +1,4 @@
-
+# Overriding Instance Methods in Java
 
 I'm re-reading Joshua Block (*Effective Java* and *Java Puzzlers*) and thought
 I'd engrave some of my thoughts and notes here and on GitHub for future
@@ -13,7 +13,7 @@ sticking to exactly the same topics as the book. These notes simply record
 some of my thoughts while reading.
 
 The program in Example01 (available on 
-[GitHub](https://github.com/kevinkenan/java-playground/blob/master/src/Example01.java)), 
+[GitHub](https://github.com/kevinkenan/java-playground/blob/master/src/main/java/Example01.java)), 
 consists of two classes, A and B. B is a sublcass of A. B overrides several 
 methods inherited from A. Here's the code:
 
@@ -74,11 +74,12 @@ unexpected behavior in Java.
 
 Logically, `x.go()` could execute the implementation defined in A or B. Since 
 `x` is of type A, then it is easy to imagine that A1 would be the output, 
-such as we saw with Item 1. But the output is B1. This is because overriding 
-instance methods in Java is done dynamically at runtime. The JVM decides 
-during execution what the actual type of the object is and selects the
-shallowest method with the appropriate signature. This is an example of 
-polymorphism. 
+such as we saw with Item 1. But the output is B1. This is because Java determines 
+the actual type of the object dynamically, during runtime, and selects the
+method with the appropriate signature defined in that class. If that class
+does not define an appropriate method, Java climbs up the class hierarchy 
+looking for the right method (see the *invokevirtual* instruction in the 
+[*Java Virtual Machine Specification*](http://docs.oracle.com/javase/specs/jvms/se8/jvms8.pdf)).
 
-
-
+This is an example of polymorphism. Instance methods are invoked dynamically. 
+As we'll see in Example02, static methods are not.
