@@ -1,3 +1,5 @@
 #!/bin/sh
 
-java -cp build/libs/java-playground.jar kenan.java.playground.$1.Example
+class=$1
+dir=$(echo $class | tr '[:upper:]' '[:lower:]')
+java -cp build/libs/java-playground.jar kenan.java.playground.$dir.$1

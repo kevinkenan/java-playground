@@ -1,6 +1,6 @@
 package kenan.java.playground.example01;
 
-public class Example {
+public class Example01 {
     public static void main(String[] args) {
         A a = new A();
         B b = new B();

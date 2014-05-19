@@ -3,3 +3,4 @@ out/
 build/
 scratch/
 *.class
+.DS_Store
