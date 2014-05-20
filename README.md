@@ -1,6 +1,6 @@
 # java-playground
 
-Code inspired by *Effective Java* by Joshua Bloch and *Java Puzzlers: Traps, Pitfalls, and Corner Cases* by Joshua Bloch and Neal Gafter. This repo is oranized into a series of examples in no particular order. Notes about each example are included in the docs directory and on my blog.
+Code inspired by *Effective Java* by Joshua Bloch and *Java Puzzlers: Traps, Pitfalls, and Corner Cases* by Joshua Bloch and Neal Gafter. This repo is oranized into a series of examples in no particular order. Notes about each example are included in the docs directory and on my [blog][blog].
 
 ## List of Examples
 
@@ -11,6 +11,7 @@ Code inspired by *Effective Java* by Joshua Bloch and *Java Puzzlers: Traps, Pit
   * [Example 5: ][ex5]
 
 
+[blog]: http://www.0xc0deshop.com 
 [ex1]: http://www.0xc0deshop.com/2014/05/overriding-instance-methods-in-java.html
 [ex2]: http://www.0xc0deshop.com/2014/05/hiding-static-methods-in-java.html
 [ex3]: http://www.0xc0deshop.com/2014/05/the-irrelevancy-of-references-in-static-method-invocation.html
