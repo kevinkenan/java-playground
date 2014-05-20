@@ -4,7 +4,7 @@ Once a method has been overridden in a subclass, that method's behavior is no lo
 
 Hiding is a different story. Java allows you to hide fields, nested classes, and static methods. Hiding static methods was discouraged in [Example 2, Hiding Static Methods in Java](http://www.0xc0deshop.com/2014/05/hiding-static-methods-in-java.html), so let's use instance fields here.
 
-The program below contains a simple hierarchy of three classes. Each contains an instance field `s`. 
+The program (also on [GitHub](https://github.com/kevinkenan/java-playground/blob/master/src/main/java/Example04.java)) below contains a simple hierarchy of three classes. Each contains an instance field `s`. 
 
     package kenan.java.playground.example04;
     
