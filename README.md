@@ -5,10 +5,14 @@ Code inspired by *Effective Java* by Joshua Bloch and *Java Puzzlers: Traps, Pit
 ## List of Examples
 
   * [Example 1: Overriding Instance Methods in Java][ex1]
-  * [Example 2: Hiding Static Methods in Java](http://www.0xc0deshop.com/2014/05/hiding-static-methods-in-java.html)
-  * [Example 3: The Irrelevancy of References in Static Method Invocation](http://www.0xc0deshop.com/2014/05/the-irrelevancy-of-references-in-static-method-invocation.html)
-  * [Example 4: The Irreversibility of Overrides and Uncovering Hidden Fields](http://www.0xc0deshop.com/2014/05/the-irreversibility-of-overrides-and-uncovering-hidden-fields.html)
-  * [Example 5: ]()
+  * [Example 2: Hiding Static Methods in Java][ex2]
+  * [Example 3: The Irrelevancy of References in Static Method Invocation][ex3]
+  * [Example 4: The Irreversibility of Overrides and Uncovering Hidden Fields][ex4]
+  * [Example 5: ][ex5]
 
 
 [ex1]: http://www.0xc0deshop.com/2014/05/overriding-instance-methods-in-java.html
+[ex2]: http://www.0xc0deshop.com/2014/05/hiding-static-methods-in-java.html
+[ex3]: http://www.0xc0deshop.com/2014/05/the-irrelevancy-of-references-in-static-method-invocation.html
+[ex4]: http://www.0xc0deshop.com/2014/05/the-irreversibility-of-overrides-and-uncovering-hidden-fields.html
+[ex5]: 
