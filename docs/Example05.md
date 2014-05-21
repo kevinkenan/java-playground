@@ -1,6 +1,6 @@
 # Overriding Overloaded Methods
 
-This example explores what happens when you override overloaded methods. The interesting behavior comes into play when the example introduces differences between declared and actual types. 
+This example explores what happens when you override overloaded methods. The interesting behavior in the program below ([GitHub][github] comes into play when the example introduces differences between declared and actual types. 
 
 
     package kenan.java.playground.example05;
@@ -62,3 +62,4 @@ In most cases, the declared type is the relevant type in Java. When overriding c
 
 [ex1]: http://www.0xc0deshop.com/2014/05/overriding-instance-methods-in-java.html
 [jls8]: http://docs.oracle.com/javase/specs/jls/se8/jls8.pdf
+[github]: https://github.com/kevinkenan/java-playground/blob/master/src/main/java/Example05.java
