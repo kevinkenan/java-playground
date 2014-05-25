@@ -9,6 +9,7 @@ Code inspired by *Effective Java* by Joshua Bloch and *Java Puzzlers: Traps, Pit
   * [Example 3: The Irrelevancy of References in Static Method Invocation][ex3]
   * [Example 4: The Irreversibility of Overrides and Uncovering Hidden Fields][ex4]
   * [Example 5: Overriding Overloaded Methods][ex5]
+  * [Example 6: Overloaded with Ambiguity][ex6]
 
 
 [blog]: http://www.0xc0deshop.com 
