@@ -17,3 +17,4 @@ Code inspired by *Effective Java* by Joshua Bloch and *Java Puzzlers: Traps, Pit
 [ex3]: http://www.0xc0deshop.com/2014/05/the-irrelevancy-of-references-in-static-method-invocation.html
 [ex4]: http://www.0xc0deshop.com/2014/05/the-irreversibility-of-overrides-and-uncovering-hidden-fields.html
 [ex5]: http://www.0xc0deshop.com/2014/05/overriding-overloaded-methods.html
+[ex6]: http://www.0xc0deshop.com/2014/05/overloaded-with-ambiguity.html
